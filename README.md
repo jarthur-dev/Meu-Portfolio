@@ -2,8 +2,6 @@
 
 Página pessoal e portfólio de desenvolvimento Front-End construído com foco em alta performance, interfaces modernas e responsividade. O projeto destaca minhas principais competências técnicas, habilidades de estilização avançadas e os projetos de destaque desenvolvidos por mim.
 
-🌐 **Acesse o portfólio ao vivo:** [pobreflix-projeto.vercel.app](https://pobreflix-projeto.vercel.app/) *(ou o link principal do seu portfólio)*
-
 ---
 
 ## 📸 Demonstração do Projeto

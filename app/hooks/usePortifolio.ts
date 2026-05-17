@@ -9,7 +9,7 @@ export function usePortfolio() {
   const fecharMenu = () => setMenuAberto(false);
 
   const lidarComWhatsApp = () => {
-    window.open("https://wa.me/5511933333826", "_blank");
+    window.open("https://wa.me/5581999472821", "_blank");
   };
 
   // Tu exportas as funções e os estados para a tua página usar
