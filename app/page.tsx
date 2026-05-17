@@ -69,14 +69,13 @@ export default function Home() {
         {/* HERO SECTION - COM EFEITO MÁQUINA DE ESCREVER (TYPEWRITER) */}
         <section id="inicio" className="min-h-screen max-w-7xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center justify-between pt-36 lg:pt-0 gap-16">
           
-          {/* Lado Esquerdo: Textos */}
+{/* Lado Esquerdo: Textos */}
           <div className="flex-1 space-y-6 text-left w-full">
-            <div className="flex items-center gap-3">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#ff2a2a" className="animate-pulse drop-shadow-[0_0_10px_#ff2a2a]"/>
-              </svg>
+            <div className="flex items-center">
               <span className="text-lg font-bold text-[#f1f1f4] tracking-widest block uppercase font-orbitron">
+                <span className="text-[#ff2a2a] animate-pulse drop-shadow-[0_0_4px_#ff2a2a] mr-2 text-xl font-black">{'{'}</span>
                 HELLO WORLD
+                <span className="text-[#ff2a2a] animate-pulse drop-shadow-[0_0_4px_#ff2a2a] ml-2 text-xl font-black">{'}'}</span>
               </span>
             </div>
 
@@ -190,7 +189,7 @@ export default function Home() {
                 <code>&lt;/&gt;</code>
               </div>
               <div className="absolute top-4 left-0 text-[#3178c6] bg-[#121216] border border-[#262630] px-3 py-1.5 rounded-xl shadow-lg text-sm font-bold font-orbitron group-hover:border-[#3178c6] transition-colors">TS</div>
-              <div className="absolute bottom-4 right-0 text-[#61dafb] bg-[#121216] border border-[#262630] px-3 py-1.5 rounded-xl shadow-lg text-sm font-bold font-orbitron group-hover:border-[#61dafb] transition-colors">React</div>
+              <div className="absolute bottom-4 right-0 text-[#61dafb] bg-[#121216] border border-[#262630] px-3 py-1.5 rounded-xl shadow-lg text-sm font-bold font-orbitron group-hover:border-[#61dafb] transition-colors">React.js</div>
             </div>
 
             <div className="flex-1 space-y-5 text-[#a0a0b0] font-poppins text-base md:text-lg">
@@ -213,7 +212,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CONHECIMENTOS (SKILLS) */}
+{/* CONHECIMENTOS (SKILLS) */}
         <section id="conhecimentos" className="py-24 px-[8%] border-t border-[#262630]">
           <h2 className="text-3xl font-black uppercase tracking-wider mb-12 relative inline-block after:absolute after:bottom-[-8px] after:left-0 after:w-16 after:h-1 after:bg-[#ff2a2a] after:shadow-[0_0_10px_#ff2a2a]">
             Conhecimentos
@@ -221,7 +220,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {/* Card HTML5 */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#E34F26] hover:shadow-[0_10px_25px_rgba(227,79,38,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#E34F26] hover:shadow-[0_10px_25px_rgba(227,79,38,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#E34F26] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siHtml5.path} /></svg>
               </div>
@@ -230,7 +229,7 @@ export default function Home() {
             </div>
 
             {/* Card CSS3 */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#1572B6] hover:shadow-[0_10px_25px_rgba(21,114,182,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#1572B6] hover:shadow-[0_10px_25px_rgba(21,114,182,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#1572B6] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siCss.path} /></svg>
               </div>
@@ -239,7 +238,7 @@ export default function Home() {
             </div>
 
             {/* Card JavaScript */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#F7DF1E] hover:shadow-[0_10px_25px_rgba(247,223,30,0.1)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#F7DF1E] hover:shadow-[0_10px_25px_rgba(247,223,30,0.1)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#F7DF1E] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siJavascript.path} /></svg>
               </div>
@@ -248,7 +247,7 @@ export default function Home() {
             </div>
 
             {/* Card TypeScript */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#3178C6] hover:shadow-[0_10px_25px_rgba(49,120,198,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#3178C6] hover:shadow-[0_10px_25px_rgba(49,120,198,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#3178C6] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siTypescript.path} /></svg>
               </div>
@@ -257,7 +256,7 @@ export default function Home() {
             </div>
 
             {/* Card React */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#61DAFB] hover:shadow-[0_10px_25px_rgba(97,218,251,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#61DAFB] hover:shadow-[0_10px_25px_rgba(97,218,251,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#61DAFB] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siReact.path} /></svg>
               </div>
@@ -266,7 +265,7 @@ export default function Home() {
             </div>
 
             {/* Card Next.js */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#ffffff] hover:shadow-[0_10px_25px_rgba(255,255,255,0.08)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#ffffff] hover:shadow-[0_10px_25px_rgba(255,255,255,0.08)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#ffffff] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siNextdotjs.path} /></svg>
               </div>
@@ -275,7 +274,7 @@ export default function Home() {
             </div>
 
             {/* Card Python */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#3776AB] hover:shadow-[0_10px_25px_rgba(55,118,171,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#3776AB] hover:shadow-[0_10px_25px_rgba(55,118,171,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#3776AB] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siPython.path} /></svg>
               </div>
@@ -284,7 +283,7 @@ export default function Home() {
             </div>
 
             {/* Card Supabase */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#3ECF8E] hover:shadow-[0_10px_25px_rgba(62,207,142,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#3ECF8E] hover:shadow-[0_10px_25px_rgba(62,207,142,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#3ECF8E] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siSupabase.path} /></svg>
               </div>
@@ -293,7 +292,7 @@ export default function Home() {
             </div>
 
             {/* Card MySQL */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#00758F] hover:shadow-[0_10px_25px_rgba(0,117,143,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#00758F] hover:shadow-[0_10px_25px_rgba(0,117,143,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#00758F] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siMysql.path} /></svg>
               </div>
@@ -302,7 +301,7 @@ export default function Home() {
             </div>
 
             {/* Card SQLite */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#003B57] hover:shadow-[0_10px_25px_rgba(0,59,87,0.2)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#003B57] hover:shadow-[0_10px_25px_rgba(0,59,87,0.2)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#005F87] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siSqlite.path} /></svg>
               </div>
@@ -311,7 +310,7 @@ export default function Home() {
             </div>
 
             {/* Card Neon */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#00E599] hover:shadow-[0_10px_25px_rgba(0,229,153,0.12)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#00E599] hover:shadow-[0_10px_25px_rgba(0,229,153,0.12)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#00E599] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siNeon.path} /></svg>
               </div>
@@ -320,7 +319,7 @@ export default function Home() {
             </div>
 
             {/* Card Node.js */}
-            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#339933] hover:shadow-[0_10px_25px_rgba(51,153,51,0.15)] transition-all group">
+            <div className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:border-[#339933] hover:shadow-[0_10px_25px_rgba(51,153,51,0.15)] hover:scale-105 transition-all duration-300 group">
               <div className="flex justify-center mb-4 text-[#a0a0b0] group-hover:text-[#339933] group-hover:scale-110 transition-all duration-300">
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d={siNodedotjs.path} /></svg>
               </div>
@@ -340,14 +339,14 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            {/* Card 1 - BellaMake */}
+            {/* Card 1 - OdontoPSL */}
             <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#E34F26] hover:shadow-[0_0_45px_rgba(227,79,38,0.15)] transition-all duration-300 group">
               <div>
                 <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#E34F26] transition-colors">
-                  BellaMake
+                  Odonto PSL
                 </h3>
                 <p className="text-[#a0a0b0] font-poppins text-sm leading-relaxed mb-6">
-                  Loja de maquiagem feminina BellaMake com painel de administrador integrado e gerenciamento de estoque em tempo real.
+                  Projeto de site institucional para clínica odontológica. Desenvolvido com HTML5, CSS3 e JavaScript puro, focado em design responsivo e experiência do usuário.
                 </p>
               </div>
               
@@ -357,61 +356,58 @@ export default function Home() {
                   HTML
                 </div>
                 <div className="flex gap-4">
-                  <a href="https://github.com/joaoarthur717/BellaMake" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#E34F26] hover:text-white transition-all border-0 outline-none">
+                  <a href="https://github.com/jarthur-dev/odontopslsitepages.git" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#E34F26] hover:text-white transition-all border-0 outline-none">
                     <span>Code</span>
                   </a>
-                  <a href="https://joaoarthur717.github.io/BellaMake/" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#E34F26] hover:text-white transition-all border-0 outline-none">
+                  <a href="https://odontopslsitepages.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#E34F26] hover:text-white transition-all border-0 outline-none">
                     <span>Demo</span>
                   </a>
                 </div>
               </div>
             </div>
 
-            {/* Card 2 - JH-Pink */}
-            <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#1572B6] hover:shadow-[0_0_35px_rgba(21,114,182,0.25)] transition-all duration-300 group">
+            {/* Card 2 - Forno Nobre */}
+            <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#3776AB] hover:shadow-[0_0_35px_rgba(55,118,171,0.25)] transition-all duration-300 group">
               <div>
-                <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#1572B6] transition-colors">
-                  JH-Pink
+                <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#3776AB] transition-colors">
+                  Forno Nobre - Sistema de Estoque
                 </h3>
                 <p className="text-[#a0a0b0] font-poppins text-sm leading-relaxed mb-6">
-                  Loja de maquiagem feminina JH Pink. Interface responsiva focada em alta conversão e experiência visual minimalista.
+                  Um sistema de estoque básico para uma padaria com controles de nível de acesso "Administrador/Funcionário".
                 </p>
               </div>
               
               <div className="flex flex-col gap-5">
                 <div className="flex items-center gap-2 text-sm font-bold text-white font-orbitron">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#1572B6] shadow-[0_0_8px_#1572B6]"></span>
-                  CSS
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#3776AB] shadow-[0_0_8px_#3776AB]"></span>
+                  Python
                 </div>
                 <div className="flex gap-4">
-                  <a href="https://github.com/joaoarthur717/JH-Pink" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#1572B6] hover:text-white transition-all border-0 outline-none">
+                  <a href="https://github.com/jarthur-dev/Forno-Nobre-Sistema-de-Estoque.git" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#1572B6] hover:text-white transition-all border-0 outline-none">
                     <span>Code</span>
-                  </a>
-                  <a href="https://joaoarthur717.github.io/JH-Pink/" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#1572B6] hover:text-white transition-all border-0 outline-none">
-                    <span>Demo</span>
                   </a>
                 </div>
               </div>
             </div>
 
-            {/* Card 3 - CloneSpotify */}
-            <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#F7DF1E] hover:shadow-[0_0_35px_rgba(247,223,30,0.18)] transition-all duration-300 group">
+            {/* Card 3 - Pão e Prosa */}
+            <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#3178C6] hover:shadow-[0_0_35px_rgba(49,120,198,0.25)] transition-all duration-300 group">
               <div>
-                <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#F7DF1E] transition-colors">
-                  CloneSpotify
+                <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#3178C6] transition-colors">
+                  Pão e Prosa
                 </h3>
                 <p className="text-[#a0a0b0] font-poppins text-sm leading-relaxed mb-6">
-                  Um tipo de clone do Spotify utilizando a API oficial do próprio Spotify para autenticação, busca e reprodução de faixas.
+                  Aplicação mobile em desenvolvimento utilizando React Native com TypeScript, focada na gestão e experiência de usuário para o contexto de uma padaria. O projeto busca unir uma interface intuitiva com a robustez e a segurança que a tipagem estática oferece.
                 </p>
               </div>
               
               <div className="flex flex-col gap-5">
                 <div className="flex items-center gap-2 text-sm font-bold text-white font-orbitron">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#F7DF1E] shadow-[0_0_8px_#F7DF1E]"></span>
-                  JavaScript
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#3178C6] shadow-[0_0_8px_#3178C6]"></span>
+                  TypeScript
                 </div>
                 <div className="flex gap-4">
-                  <a href="https://github.com/joaoarthur717/CloneSpotify" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#F7DF1E] hover:text-white transition-all border-0 outline-none">
+                  <a href="https://github.com/aaxs7a/Pao-e-Prosa.git" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#3178C6] hover:text-white transition-all border-0 outline-none">
                     <span>Code</span>
                   </a>
                 </div>
@@ -445,14 +441,14 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Card 5 - Sabor-no-Ponto */}
+            {/* Card 5 - Sabor no Ponto */}
             <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#3178C6] hover:shadow-[0_0_35px_rgba(49,120,198,0.25)] transition-all duration-300 group">
               <div>
                 <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#3178C6] transition-colors">
-                  Sabor-no-Ponto
+                  Sabor no Ponto
                 </h3>
                 <p className="text-[#a0a0b0] font-poppins text-sm leading-relaxed mb-6">
-                  Site de catálogo de filmes feito como projeto final da unidade acadêmica, focado em boas práticas estruturais e semântica.
+                  Projeto em desenvolvimento de um sistema para gestão e pedidos da lanchonete Sabor no Ponto . Desenvolvido com foco em agilidade e uma experiência deliciosa para o cliente.
                 </p>
               </div>
               
@@ -469,25 +465,28 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Card 6 - GB-TechStore */}
-            <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#F7DF1E] hover:shadow-[0_0_35px_rgba(247,223,30,0.18)] transition-all duration-300 group">
+            {/* Card 6 - POBREFLIX */}
+            <div className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] hover:border-[#3178C6] hover:shadow-[0_0_35px_rgba(49,120,198,0.25)] transition-all duration-300 group">
               <div>
-                <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#F7DF1E] transition-colors">
-                  GB-TechStore
+                <h3 className="text-2xl font-black text-white font-orbitron mb-3 tracking-wide group-hover:text-[#3178C6] transition-colors">
+                  POBREFLIX
                 </h3>
                 <p className="text-[#a0a0b0] font-poppins text-sm leading-relaxed mb-6">
-                  Projeto desenvolvido com foco em performance e UI moderna, simulando um e-commerce de hardware completo e fluido.
+                  Plataforma de streaming conceitual inspirada na Netflix, desenvolvida com consumo dinâmico de API de conteúdos, interface fluida de alta fidelidade visual e sistema completo de busca e categorização.
                 </p>
               </div>
               
               <div className="flex flex-col gap-5">
                 <div className="flex items-center gap-2 text-sm font-bold text-white font-orbitron">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#F7DF1E] shadow-[0_0_8px_#F7DF1E]"></span>
-                  JavaScript
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#3178C6] shadow-[0_0_8px_#3178C6]"></span>
+                  TypeScript
                 </div>
                 <div className="flex gap-4">
-                  <a href="https://github.com/joaoarthur717/GB-TechStore" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#F7DF1E] hover:text-white transition-all border-0 outline-none">
+                  <a href="https://github.com/jarthur-dev/Pobreflix-Projeto.git" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#3178C6] hover:text-white transition-all border-0 outline-none">
                     <span>Code</span>
+                  </a>
+                  <a href="https://pobreflix-projeto.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-[#1c1c24] rounded font-bold text-sm tracking-wider uppercase font-orbitron text-[#a0a0b0] hover:scale-105 hover:bg-[#3178C6] hover:text-white transition-all border-0 outline-none">
+                    <span>Demo</span>
                   </a>
                 </div>
               </div>

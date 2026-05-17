@@ -46,7 +46,7 @@ export default function Footer({ onContactClick }: FooterProps) {
 
           {/* GitHub Logo */}
           <a 
-            href="https://github.com/jadevbuilds" 
+            href="https://github.com/jarthur-dev" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-[#a0a0b0] hover:text-[#ffffff] hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.4)] transition-all duration-300 transform hover:-translate-y-1"
