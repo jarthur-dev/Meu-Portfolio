@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 JArthur.Dev - Portfólio Profissional
 
-## Getting Started
+Página pessoal e portfólio de desenvolvimento Front-End construído com foco em alta performance, interfaces modernas e responsividade. O projeto destaca minhas principais competências técnicas, habilidades de estilização avançadas e os projetos de destaque desenvolvidos por mim.
 
-First, run the development server:
+🌐 **Acesse o portfólio ao vivo:** [pobreflix-projeto.vercel.app](https://pobreflix-projeto.vercel.app/) *(ou o link principal do seu portfólio)*
+
+---
+
+## 📸 Demonstração do Projeto
+
+<div align="center">
+  <p>Interface Cyberpunk / Tech em tons de preto e vermelho, equipada com animações fluidas e efeitos de partículas em tempo real.</p>
+</div>
+
+---
+
+## ✨ Recursos de Destaque
+
+* **Identidade Visual Marcante:** Tema escuro customizado com detalhes em neon vermelho cyberpunk e tipografia moderna (Font Orbitron).
+* **Efeito de Partículas Ativo:** Fundo dinâmico e interativo utilizando `Particles.js` para enriquecer a experiência visual (UI/UX).
+* **Seção de Skills Interativa:** Cards de tecnologias com animações fluidas de aproximação (`scale-105`) e sombras temáticas ao passar o mouse (Hover Effects).
+* **Internacionalização & Proteção de Layout:** Estrutura otimizada nativamente em `pt-BR` com travas contra quebras de layout geradas por tradutores automáticos (Google Tradutor).
+* **Responsividade Total:** Adaptado perfeitamente para dispositivos móveis, tablets e monitores ultrawide.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi estruturado utilizando as melhores práticas do mercado moderno de desenvolvimento web:
+
+| Tecnologia | Função no Projeto |
+| :--- | :--- |
+| **Next.js 14+** | Framework React com App Router, otimização de fontes e renderização performática. |
+| **TypeScript** | Tipagem estática estrita para garantir código resiliente e livre de bugs em runtime. |
+| **Tailwind CSS** | Estilização utilitária ágil e criação de animações fluidas e responsivas. |
+| **Particles.js** | Motor de renderização de partículas interativas para o background da aplicação. |
+| **React Icons / Simple Icons** | Vetores e SVGs de alta fidelidade para as marcas das tecnologias. |
+
+---
+
+## 📂 Projetos em Destaque no Portfólio
+
+Entre as principais aplicações exibidas na plataforma, destaca-se:
+
+* **Pobreflix:** Plataforma de streaming conceitual inspirada na Netflix, desenvolvida com consumo dinâmico de API de conteúdos, interface fluida de alta fidelidade visual e sistema completo de busca e categorização.
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+Se desejar clonar e rodar este portfólio na sua máquina, siga os passos abaixo:
 
 ```bash
+# 1. Clone o repositório
+git clone [https://github.com/jarthur-dev/Meu-Portfolio.git](https://github.com/jarthur-dev/Meu-Portfolio.git)
+
+# 2. Acesse a pasta do projeto
+cd my-portfolio
+
+# 3. Instale as dependências
+npm install
+# ou yarn install / pnpm install
+
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
