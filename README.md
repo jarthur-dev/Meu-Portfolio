@@ -53,7 +53,7 @@ Se desejar clonar e rodar este portfólio na sua máquina, siga os passos abaixo
 git clone [https://github.com/jarthur-dev/Meu-Portfolio.git](https://github.com/jarthur-dev/Meu-Portfolio.git)
 
 # 2. Acesse a pasta do projeto
-cd my-portfolio
+cd my-portifolio
 
 # 3. Instale as dependências
 npm install
