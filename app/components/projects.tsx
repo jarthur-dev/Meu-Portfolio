@@ -13,7 +13,7 @@ const listaProjetos = [
     title: "Forno Nobre - Sistema de Estoque",
     desc: "Um sistema de estoque básico para uma padaria com controles de nível de acesso 'Administrador/Funcionário'.",
     tech: "Python",
-    techColor: "#3776AB",
+    techColor: "#5fb7ff",
     codeUrl: "https://github.com/jarthur-dev/Forno-Nobre-Sistema-de-Estoque.git"
   },
   {
@@ -45,6 +45,14 @@ const listaProjetos = [
     techColor: "#3178C6",
     codeUrl: "https://github.com/jarthur-dev/Pobreflix-Projeto.git",
     demoUrl: "https://pobreflix-projeto.vercel.app/"
+  },
+  {
+    title: "Bravos's Store",
+    desc: "A BRAVOS's STORE é um ecossistema de e-commerce focado em alta performance, engenharia têxtil avançada e vestuário esportivo de elite. A plataforma foi projetada para entregar uma experiência de navegação fluida, responsiva e de altíssimo nível.",
+    tech: "TypeScript",
+    techColor: "#3178C6",
+    codeUrl: "https://github.com/aaxs7a/bravosstore_.git",
+    demoUrl: "https://bravosstore.vercel.app/"
   }
 ];
 

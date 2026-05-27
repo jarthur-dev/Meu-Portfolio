@@ -12,7 +12,7 @@ const listaSkills = [
   { name: "TypeScript", desc: "Tipagem estática estrita eliminando bugs antes mesmo do código rodar.", icon: siTypescript.path, color: "#3178C6", shadow: "rgba(49,120,198,0.15)" },
   { name: "React.js", desc: "Arquitetura de componentes reutilizáveis e reatividade de estados.", icon: siReact.path, color: "#61DAFB", shadow: "rgba(97,218,251,0.15)" },
   { name: "Next.js", desc: "Renderização Server-Side (SSR), App Router e otimização de SEO.", icon: siNextdotjs.path, color: "#ffffff", shadow: "rgba(255,255,255,0.08)" },
-  { name: "Python", desc: "Scripts de automação, lógica de programação pura e desenvolvimento ágil.", icon: siPython.path, color: "#3776AB", shadow: "rgba(55,118,171,0.15)" },
+  { name: "Python", desc: "Scripts de automação, lógica de programação pura e desenvolvimento ágil.", icon: siPython.path, color: "#5fb7ff", shadow: "rgba(55,118,171,0.15)" },
   { name: "Supabase", desc: "Plataforma Backend (BaaS), banco PostgreSQL real-time e segurança RLS.", icon: siSupabase.path, color: "#3ECF8E", shadow: "rgba(62,207,142,0.15)" },
   { name: "MySQL", desc: "Bancos de dados relacionais estruturados, modelagem e queries SQL.", icon: siMysql.path, color: "#00758F", shadow: "rgba(0,117,143,0.15)" },
   { name: "SQLite", desc: "Bancos locais EMBARCADOS eficientes ideais para desenvolvimento e mobile.", icon: siSqlite.path, color: "#005F87", shadow: "rgba(0,59,87,0.2)" },
