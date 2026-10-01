@@ -68,7 +68,7 @@ const listaProjetos = [
     tech: "TypeScript",
     techColor: "#3178C6",
     codeUrl: "https://github.com/jarthur-dev/Casa-da-Parrilla.git",
-    demoUrl: "https://casa-da-parrilla.vercel.app/"
+    demoUrl: "https://casa-da-parrilha.vercel.app/",
   }
 ];
 
