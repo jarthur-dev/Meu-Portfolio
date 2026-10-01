@@ -161,8 +161,4 @@ export default function Home() {
       </div>
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f318def (docs: adds new projects to the my projects section.)

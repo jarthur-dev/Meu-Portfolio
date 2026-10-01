@@ -13,11 +13,7 @@ const listaProjetos = [
     title: "Forno Nobre - Sistema de Estoque",
     desc: "Um sistema de estoque básico para uma padaria com controles de nível de acesso 'Administrador/Funcionário'.",
     tech: "Python",
-<<<<<<< HEAD
     techColor: "#5fb7ff",
-=======
-    techColor: "#3776AB",
->>>>>>> f318def (docs: adds new projects to the my projects section.)
     codeUrl: "https://github.com/jarthur-dev/Forno-Nobre-Sistema-de-Estoque.git"
   },
   {
@@ -28,11 +24,7 @@ const listaProjetos = [
     codeUrl: "https://github.com/aaxs7a/Pao-e-Prosa.git"
   },
   {
-<<<<<<< HEAD
     title: "NEXUS",
-=======
-    title: "Loja NEXUS",
->>>>>>> f318def (docs: adds new projects to the my projects section.)
     desc: "E-commerce moderno Nexus desenvolvido com foco em alta performance, Fluidez de navegação e uma experiência de compra totalmente responsiva e integrada.",
     tech: "TypeScript",
     techColor: "#3178C6",
@@ -55,29 +47,12 @@ const listaProjetos = [
     demoUrl: "https://pobreflix-projeto.vercel.app/"
   },
   {
-<<<<<<< HEAD
     title: "Bravos's Store",
     desc: "A BRAVOS's STORE é um ecossistema de e-commerce focado em alta performance, engenharia têxtil avançada e vestuário esportivo de elite. A plataforma foi projetada para entregar uma experiência de navegação fluida, responsiva e de altíssimo nível.",
     tech: "TypeScript",
     techColor: "#3178C6",
     codeUrl: "https://github.com/aaxs7a/bravosstore_.git",
     demoUrl: "https://bravosstore.vercel.app/"
-=======
-    title: "TechPhone Importados",
-    desc: "aplicação web front-end desenvolvida para apresentar um catálogo dinâmico de smartphones de alta performance, com interface responsiva e otimizada para dispositivos móveis, proporcionando uma experiência de navegação fluida e envolvente.",
-    tech: "JavaScript",
-    techColor: "#F7DF1E",
-    codeUrl: "https://github.com/jarthur-dev/techphone-importados.git",
-    demoUrl: "https://techphone-importados.vercel.app/"
-  },
-  {
-    title: "Casa da Parrilla",
-    desc: "Uma Landing Page responsiva e moderna desenvolvida para a Casa da Parrilla (Recife/PE), focada em melhorar a experiência visual da marca, melhorar a apresentação dos combos artesanais e transformar a conversão de pedidos via WhatsApp.",
-    tech: "TypeScript",
-    techColor: "#3178C6",
-    codeUrl: "https://github.com/jarthur-dev/Casa-da-Parrilla.git",
-    demoUrl: "https://casa-da-parrilha.vercel.app/"
->>>>>>> f318def (docs: adds new projects to the my projects section.)
   }
 ];
 
