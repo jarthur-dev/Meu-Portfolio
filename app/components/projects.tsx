@@ -53,6 +53,22 @@ const listaProjetos = [
     techColor: "#3178C6",
     codeUrl: "https://github.com/aaxs7a/bravosstore_.git",
     demoUrl: "https://bravosstore.vercel.app/"
+  },
+  {
+    title: "TechPhone Importados",
+    desc: "Aplicação web front-end desenvolvida para apresentar um catálogo dinâmico de smartphones de alta performance, com interface responsiva e otimizada para dispositivos móveis, proporcionando uma experiência de navegação fluida e envolvente.",
+    tech: "JavaScript",
+    techColor: "#F7DF1E",
+    codeUrl: "https://github.com/jarthur-dev/techphone-importados.git",
+    demoUrl: "https://techphone-importados.vercel.app/"
+  },
+  {
+    title: "Casa da Parrilla",
+    desc: "Uma Landing Page responsiva e moderna desenvolvida para a Casa da Parrilla (Recife/PE), focada em melhorar a experiência visual da marca, melhorar a apresentação dos combos artesanais e transformar a conversão de pedidos via WhatsApp.",
+    tech: "TypeScript",
+    techColor: "#3178C6",
+    codeUrl: "https://github.com/jarthur-dev/Casa-da-Parrilla.git",
+    demoUrl: "https://casa-da-parrilla.vercel.app/"
   }
 ];
 
