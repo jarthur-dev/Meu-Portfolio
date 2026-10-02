@@ -27,17 +27,7 @@ export default function Home() {
       
       {/* CANVAS DE PARTÍCULAS NO FUNDO FIXO DA TELA */}
       <div className="fixed inset-0 w-full h-full z-0 pointer-events-none opacity-80">
-        <Particles
-          particleColors={["#ff2a2a", "#ff0000", "#ff5555", "#cc0000"]}
-          particleCount={180}
-          particleSpread={12}
-          speed={0.06}
-          particleBaseSize={120}
-          moveParticlesOnHover={true}
-          alphaParticles={false}
-          disableRotation={false}
-          pixelRatio={2}
-        />
+        <Particles />
       </div>
 
       {/* CONTEÚDO PRINCIPAL (z-10 garante que o site fica por cima do canvas) */}
@@ -98,19 +88,19 @@ export default function Home() {
           <div className="flex-1 flex justify-center items-center relative w-full max-w-[480px] aspect-square group">
             <div className="absolute w-[60%] h-[60%] rounded-full bg-[#ff2a2a]/10 blur-[80px] pointer-events-none z-0"></div>
             
-            <div className="w-[76%] h-[76%] rounded-2xl bg-[#121216] border border-[#262630] p-3 overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] z-10 relative group-hover:border-[#ff2a2a]/40 transition-all duration-500 animacao-boiar">
+            <div className="w-[76%] h-[76%] rounded-2xl bg-[#0a0a0c] border border-[#262630] p-3 overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.8)] z-10 relative group-hover:border-[#ff2a2a]/40 transition-all duration-500 animacao-boiar">
               <div className="w-full h-full rounded-xl overflow-hidden relative bg-[#1c1c24]">
                 <Image src="/joaoperfil.jpg" alt="João Arthur" fill priority className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
             </div>
 
             {/* Ícones Flutuantes Mapeados via Vetor Manual */}
-            <div className="absolute top-[6%] right-[6%] p-4 bg-[#121216] border border-[#262630] rounded-xl text-[#3178C6] shadow-lg hover:scale-110 hover:border-[#3178C6] hover:shadow-[0_0_15px_rgba(49,120,198,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '0.6s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siTypescript.path} /></svg></div>
-            <div className="absolute top-[28%] right-[2%] p-4 bg-[#121216] border border-[#262630] rounded-xl text-[#61DAFB] shadow-lg hover:scale-110 hover:border-[#61DAFB] hover:shadow-[0_0_15px_rgba(97,218,251,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '1.4s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siReact.path} /></svg></div>
-            <div className="absolute bottom-[6%] left-[6%] p-4 bg-[#121216] border border-[#262630] rounded-xl text-[#E34F26] shadow-lg hover:scale-110 hover:border-[#E34F26] hover:shadow-[0_0_15px_rgba(227,79,38,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '0.3s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siHtml5.path} /></svg></div>
-            <div className="absolute bottom-[28%] left-[2%] p-4 bg-[#121216] border border-[#262630] rounded-xl text-[#1572B6] shadow-lg hover:scale-110 hover:border-[#1572B6] hover:shadow-[0_0_15px_rgba(21,114,182,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '1.1s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siCss.path} /></svg></div>
-            <div className="absolute bottom-[-2%] left-[26%] p-4 bg-[#121216] border border-[#262630] rounded-xl text-[#F7DF1E] shadow-lg hover:scale-110 hover:border-[#F7DF1E] hover:shadow-[0_0_15px_rgba(247,223,30,0.3)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '1.8s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siJavascript.path} /></svg></div>
-            <div className="absolute bottom-[4%] right-[14%] p-4 bg-[#121216] border border-[#262630] rounded-xl text-white shadow-lg hover:scale-110 hover:border-white hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '0.9s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siNextdotjs.path} /></svg></div>
+            <div className="absolute top-[6%] right-[6%] p-4 bg-[#0a0a0c] border border-[#262630] rounded-xl text-[#3178C6] shadow-lg hover:scale-110 hover:border-[#3178C6] hover:shadow-[0_0_15px_rgba(49,120,198,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '0.6s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siTypescript.path} /></svg></div>
+            <div className="absolute top-[28%] right-[2%] p-4 bg-[#0a0a0c] border border-[#262630] rounded-xl text-[#61DAFB] shadow-lg hover:scale-110 hover:border-[#61DAFB] hover:shadow-[0_0_15px_rgba(97,218,251,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '1.4s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siReact.path} /></svg></div>
+            <div className="absolute bottom-[6%] left-[6%] p-4 bg-[#0a0a0c] border border-[#262630] rounded-xl text-[#E34F26] shadow-lg hover:scale-110 hover:border-[#E34F26] hover:shadow-[0_0_15px_rgba(227,79,38,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '0.3s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siHtml5.path} /></svg></div>
+            <div className="absolute bottom-[28%] left-[2%] p-4 bg-[#0a0a0c] border border-[#262630] rounded-xl text-[#1572B6] shadow-lg hover:scale-110 hover:border-[#1572B6] hover:shadow-[0_0_15px_rgba(21,114,182,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '1.1s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siCss.path} /></svg></div>
+            <div className="absolute bottom-[-2%] left-[38%] p-4 bg-[#0a0a0c] border border-[#262630] rounded-xl text-[#F7DF1E] shadow-lg hover:scale-110 hover:border-[#F7DF1E] hover:shadow-[0_0_15px_rgba(247,223,30,0.4)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '1.8s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siJavascript.path} /></svg></div>
+            <div className="absolute bottom-[4%] right-[14%] p-4 bg-[#0a0a0c] border border-[#262630] rounded-xl text-white shadow-lg hover:scale-110 hover:border-white hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 z-20 animacao-boiar" style={{ animationDelay: '0.9s' }}><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d={siNextdotjs.path} /></svg></div>
 
             <div className="absolute w-[92%] h-[92%] border border-[#262630]/40 rounded-full pointer-events-none z-0"></div>
             <div className="absolute w-[105%] h-[105%] border border-[#262630]/20 rounded-full pointer-events-none rotate-45 z-0"></div>

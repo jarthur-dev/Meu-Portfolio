@@ -8,7 +8,7 @@ interface FooterProps {
 
 export default function Footer({ onContactClick }: FooterProps) {
   return (
-    <footer id="contato" className="py-20 bg-[#121216] border-t border-[#262630] text-center w-full">
+    <footer id="contato" className="py-16 bg-[#0a0a0c] border-t border-[#262630] text-center w-full">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-black uppercase tracking-wider mb-3">Vamos construir algo juntos?</h2>
         <p className="text-[#a0a0b0] mb-10 max-w-md mx-auto text-sm">
@@ -65,7 +65,7 @@ export default function Footer({ onContactClick }: FooterProps) {
             href="https://mail.google.com/mail/?view=cm&fs=1&to=joao717arthur@gmail.com&su=Contato%20via%20Portfólio"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-3 py-3 px-8 bg-[#121216] border border-[#262630] rounded-full text-[#a0a0b0] font-mono text-base md:text-lg font-bold tracking-wide uppercase font-orbitron hover:scale-105 hover:border-[#ff2a2a] hover:text-white hover:shadow-[0_0_30px_rgba(255,42,42,0.25)] transition-all duration-300 outline-none group"
+            className="inline-flex items-center justify-center gap-3 py-3 px-8 bg-[#0a0a0c] border border-[#262630] rounded-full text-[#a0a0b0] font-mono text-base md:text-lg font-bold tracking-wide uppercase font-orbitron hover:scale-105 hover:border-[#ff2a2a] hover:text-white hover:shadow-[0_0_30px_rgba(255,42,42,0.25)] transition-all duration-300 outline-none group"
           >
             {/* Ícone de Envelope (E-mail) que acende no hover */}
             <svg 

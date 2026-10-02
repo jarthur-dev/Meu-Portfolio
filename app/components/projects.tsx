@@ -85,7 +85,7 @@ export default function Projects() {
         {listaProjetos.map((proj, index) => (
           <div 
             key={index} 
-            className="bg-[#121216] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] transition-all duration-300 group"
+            className="bg-[#0a0a0c] border border-[#262630] p-8 rounded-xl flex flex-col justify-between min-h-[320px] hover:scale-[1.03] transition-all duration-300 group"
             style={{
               ['--hover-color' as any]: proj.techColor,
               ['--hover-shadow' as any]: `0 0 35px ${proj.techColor}25`

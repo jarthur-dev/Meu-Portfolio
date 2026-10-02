@@ -31,7 +31,7 @@ export default function Skills() {
         {listaSkills.map((skill, index) => (
           <div 
             key={index} 
-            className="bg-[#121216] border border-[#262630] p-6 rounded-lg text-center hover:scale-105 transition-all duration-300 group"
+            className="bg-[#0a0a0c] border border-[#262630] p-6 rounded-lg text-center hover:scale-105 transition-all duration-300 group"
             style={{
               // Aplica a cor de borda e sombra customizada dinamicamente no hover através de variáveis CSS nativas
               ['--hover-border' as any]: skill.color,

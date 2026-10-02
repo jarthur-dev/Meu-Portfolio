@@ -9,7 +9,7 @@ export default function Navbar() {
   const classeLinkNav = "hover:text-[#ff2a2a] transition-colors relative after:absolute after:-bottom-2 after:left-0 after:w-0 after:h-[2px] after:bg-[#ff2a2a] hover:after:w-full after:transition-all duration-300";
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#0a0a0c]/90 backdrop-blur-md border-b border-[#262630] z-50 px-6 md:px-24 py-5">
+    <header className="fixed top-0 left-0 w-full bg-[#0a0a0c]/90 backdrop-blur-md border-b border-[#262630] z-50 px-10 md:px-30 py-5">
       <nav className="flex justify-between items-center max-w-7xl mx-auto logo">
         <div className="text-2xl font-black tracking-widest font-orbitron">
           JArthur<span className="text-[#ff2a2a] drop-shadow-[0_0_10px_rgba(255,42,42,0.4)]">.Dev</span>
@@ -24,7 +24,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#sobre" className={classeLinkNav}>
-              Sobre
+              Sobre Mim
             </a>
           </li>
           <li>
@@ -66,7 +66,7 @@ export default function Navbar() {
       {menuAberto && (
         <div className="md:hidden absolute top-full left-0 w-full bg-[#0a0a0c] border-b border-[#262630] py-4 px-6 flex flex-col gap-4 text-center font-orbitron uppercase text-sm">
           <a href="#inicio" onClick={() => setMenuAberto(false)} className="hover:text-[#ff2a2a] py-2">Início</a>
-          <a href="#sobre" onClick={() => setMenuAberto(false)} className="hover:text-[#ff2a2a] py-2">Sobre</a>
+          <a href="#sobre" onClick={() => setMenuAberto(false)} className="hover:text-[#ff2a2a] py-2">Sobre Mim</a>
           <a href="#conhecimentos" onClick={() => setMenuAberto(false)} className="hover:text-[#ff2a2a] py-2">Skills</a>
           <a href="#projetos" onClick={() => setMenuAberto(false)} className="hover:text-[#ff2a2a] py-2">Projetos</a>
           <a href="#contato" onClick={() => setMenuAberto(false)} className="hover:text-[#ff2a2a] py-2">Contato</a>
